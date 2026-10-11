@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables & Secrets (CRITICAL: DO NOT COMMIT)
+.env
+.env.*
+!.env.example
+
+# IDE & OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Scratch / Local test artifacts
+test_api.py
+run_test_plan.py
+scratch/
+
+# Starter Kit Reference Files (Excluded from submission)
+DATA_MODEL.md
+openapi.yaml
+PROBLEM_STATEMENT.docx
+sample_data/
+sample_seed.py
